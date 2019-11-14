@@ -6,8 +6,8 @@ public class Main {
 //	NumberInWord exercicio;
 //        exercicio = new NumberInWord();
 //        exercicio.print();
-//    NumOfDays dias;
-//    dias = new NumOfDays();
+//       NumOfDays dias;
+//       dias = new NumOfDays();
 //        System.out.println(dias.getDaysInMonth(2, 2019));
 //        SumOdd soma;
 //        soma = new SumOdd();
@@ -17,6 +17,7 @@ public class Main {
 //        System.out.println("O número -1221 " + numero.isPalindrome(-1221));
         FirstLastSum soma;
         soma = new FirstLastSum();
-        System.out.println("Soma do 1º e último de 134568 é " + soma.sumFirstAndLastDigit(134568));
+        System.out.println("Soma do 1º e último de 134568 é " + soma.sumFirstAndLastDigit(14908));
+
     }
 }
