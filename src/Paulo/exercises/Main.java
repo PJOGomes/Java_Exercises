@@ -12,8 +12,11 @@ public class Main {
 //        SumOdd soma;
 //        soma = new SumOdd();
 //        System.out.println(soma.sumOdd(1,100));
-        NumberPalindrome numero;
-        numero = new NumberPalindrome();
-        System.out.println("O número -1221 " + numero.isPalindrome(-1221));
+//        NumberPalindrome numero;
+//        numero = new NumberPalindrome();
+//        System.out.println("O número -1221 " + numero.isPalindrome(-1221));
+        FirstLastSum soma;
+        soma = new FirstLastSum();
+        System.out.println("Soma do 1º e último de 134568 é " + soma.sumFirstAndLastDigit(134568));
     }
 }
