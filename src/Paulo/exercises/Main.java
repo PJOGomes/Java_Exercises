@@ -3,6 +3,9 @@ package Paulo.exercises;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	NumberInWord exercicio;
+        exercicio = new NumberInWord();
+        exercicio.print();
+
     }
 }
