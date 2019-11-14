@@ -9,10 +9,6 @@ public class SharedDigit {
         number1 /= 10;
         int primeiro2 = number2 % 10;
         number2 /= 10;
-        if(number1 == number2 || number1 == primeiro2 || primeiro1 == number2 || primeiro1 == primeiro2) {
-            return true;
-        } else {
-            return false;
-        }
+        return number1 == number2 || number1 == primeiro2 || primeiro1 == number2 || primeiro1 == primeiro2;
     }
 }
