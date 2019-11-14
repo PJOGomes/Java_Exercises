@@ -18,9 +18,10 @@ public class Main {
 //        FirstLastSum soma;
 //        soma = new FirstLastSum();
 //        System.out.println("Soma do 1º e último de 134568 é " + soma.sumFirstAndLastDigit(14908));
-        NumberToWords num;
-        num = new NumberToWords();
-        num.numberToWords(100);
-
+//        NumberToWords num;
+//        num = new NumberToWords();
+//        num.numberToWords(100);
+        FlourPacker flour = new FlourPacker();
+        System.out.println(flour.canPack(2,10,18));
     }
 }
