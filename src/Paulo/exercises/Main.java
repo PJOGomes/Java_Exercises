@@ -27,7 +27,13 @@ public class Main {
 //        System.out.println(prime.getLargestPrime(45));
 //        StarsSquares square = new StarsSquares();
 //        square.printSquareStar(5);
-        ReadinUserInput input = new ReadinUserInput();
-        input.function();
+//        ReadinUserInput input = new ReadinUserInput();
+//        input.function();
+        Bank banco = new Bank();
+        banco.depositFund(300);
+        banco.depositFund(300);
+        banco.withdrawFunds(200);
+        banco.withdrawFunds(500);
+        banco.withdrawFunds(400);
     }
 }
