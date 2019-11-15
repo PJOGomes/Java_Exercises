@@ -33,11 +33,7 @@ public class Person {
         }
     }
     public boolean isTeen() {
-        if(this.age>12 && this.age<20){
-            return true;
-        } else {
-            return false;
-        }
+        return this.age > 12 && this.age < 20;
     }
     public String getFullName() {
         if(this.firstName.isEmpty()&&this.lastName.isEmpty()){

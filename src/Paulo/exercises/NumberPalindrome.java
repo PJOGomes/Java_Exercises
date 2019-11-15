@@ -16,10 +16,6 @@ public class NumberPalindrome {
             reverseNumber +=digit;
             number /= 10;
         }
-        if(numToCheck == reverseNumber) {
-            return true;
-        } else {
-            return false;
-        }
+        return numToCheck == reverseNumber;
     }
 }
