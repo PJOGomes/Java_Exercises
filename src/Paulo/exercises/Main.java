@@ -21,7 +21,9 @@ public class Main {
 //        NumberToWords num;
 //        num = new NumberToWords();
 //        num.numberToWords(100);
-        FlourPacker flour = new FlourPacker();
-        System.out.println(flour.canPack(2,10,18));
+//        FlourPacker flour = new FlourPacker();
+//        System.out.println(flour.canPack(2,10,18));
+        LargestPrime prime = new LargestPrime();
+        System.out.println(prime.getLargestPrime(45));
     }
 }
