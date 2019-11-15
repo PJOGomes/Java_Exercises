@@ -25,7 +25,9 @@ public class Main {
 //        System.out.println(flour.canPack(2,10,18));
 //        LargestPrime prime = new LargestPrime();
 //        System.out.println(prime.getLargestPrime(45));
-        StarsSquares square = new StarsSquares();
-        square.printSquareStar(5);
+//        StarsSquares square = new StarsSquares();
+//        square.printSquareStar(5);
+        ReadinUserInput input = new ReadinUserInput();
+        input.function();
     }
 }
